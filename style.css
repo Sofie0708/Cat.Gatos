@@ -55,22 +55,39 @@ svg {
 #fundoIntroducao {
     display: flex;
     width: 100%;
-    height: 98vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-color: rgba(7, 30, 77, 0.35);
     background-image: url(gatos-brincando-estimulo.webp);
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: 30%;
+    background-position: 50%;
 }
 
 #fundoIntroducao>div {
     height: 200px;
-    width: 615px;
+    width: 610px;
     font-size: 35px;
 }
 
 .texto1 {
     position: absolute;
-    margin: 5% ;
+    margin: 4% 0 0 9% ;
+}
+
+.texto2 {
+    position: absolute;
+    margin: 30% 4% 0 65% ;
+}
+
+#fundoListra {
+    display: flex;
+    height: 7vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arcoIris {
+    height: 26px;
+    width: 100%;
 }
