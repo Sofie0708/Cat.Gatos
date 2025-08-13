@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kalnia", serif;
+    color: #ffffff;
+}
+
+body{
+    background-color: #FAF9EA;
+}
+
+#cabecario {
+    display: grid;
+    height: 12vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 180px 1fr 180px;
+    background-color: rgba(7, 30, 77, 0.8);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+#logo>img {
+    height: 80px;
+}
+
+svg {
+    fill: #ffffff;
+    height: 30px;
+}
+
+.fundoLink {
+    background-color: #071e4d;
+    height: 4vh;
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    height: 4vh;
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 75px;
+}
+
+#fundoIntroducao {
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-color: rgba(7, 30, 77, 0.35);
+    background-image: url(gatos-brincando-estimulo.webp);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 30%;
+}
+
+#fundoIntroducao>div {
+    height: 200px;
+    width: 615px;
+    font-size: 35px;
+}
+
+.texto1 {
+    position: absolute;
+    margin: 5% ;
+}
