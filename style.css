@@ -80,14 +80,45 @@ svg {
     margin: 30% 4% 0 65% ;
 }
 
+#produtos {
+    margin-top: 6%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 15%;
+    color: #071e4d;
+}
+
 #fundoListra {
     display: flex;
-    height: 7vh;
+    height: 18vh;
     flex-direction: column;
-    justify-content: space-between;
-}
+    justify-content: space-evenly;
 
 .arcoIris {
     height: 26px;
     width: 100%;
 }
+.laranja {
+    background-color: #C78066;
+}
+.verde {
+    background-color: #9FC37B;
+}
+.turquesa {
+    background-color: #84D0D5;
+}
+.azul {
+    background-color: #6A84C3;
+}
+.roxo {
+    background-color: #9F84CD;
+}
+
+}
+
+
+
+
